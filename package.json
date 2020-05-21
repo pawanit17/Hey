@@ -1,0 +1,21 @@
+{
+  "name": "hey",
+  "version": "1.0.0",
+  "description": "A chat application integrated with OAuth to login to Gmail and deployable over Google Cloud",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "multi-user",
+    "chat",
+    "client"
+  ],
+  "author": "pavan dittakavi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "google-auth-library": "^6.0.0",
+    "socket.io": "^2.3.0"
+  }
+}

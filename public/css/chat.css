@@ -1,0 +1,28 @@
+#rounded_div {
+    border-radius: 4px;
+    background: RGB(26,26,27);
+    padding: 20px; 
+    width: auto;
+    height: auto;  
+  }
+
+#logo {
+    display: block;
+    max-width: 30%;
+    height: auto;
+}
+
+body {
+    background-color:black;
+    text-align:center"
+}
+
+img {
+    margin-right: 0;
+
+}
+
+.white_text_arial_font {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white
+  }
