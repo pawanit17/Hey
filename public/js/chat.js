@@ -17,7 +17,7 @@ function sendMessage() {
 socket.on('chat message', function(msg){
   //$("#conversationHistoryTextArea").val( $("#conversationHistoryTextArea").val() + "\n" + "YOU: " + msg );
   $('#conversationList').append(function(n){
-    return "<li class='list-group-item'>" + msg + "</li>";
+    return "<div class='rounded_div_conversations'>" + "<p class='conversation_texts'>" + msg + "</p></div>";
   });
   
 });
