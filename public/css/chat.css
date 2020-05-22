@@ -1,7 +1,7 @@
 #rounded_div {
     border-radius: 4px;
     background: RGB(26,26,27);
-    padding: 20px; 
+    padding: 20px;
     width: auto;
     height: auto;  
   }
@@ -19,6 +19,7 @@
     display: block;
     max-width: 30%;
     height: auto;
+    margin: 0;
 }
 
 body {
@@ -27,8 +28,12 @@ body {
 }
 
 img {
-    margin-right: 0;
+    margin: 0;
 
+}
+
+.conversation_main_div {
+  margin-top:10px;
 }
 
 .white_text_arial_font {

@@ -8,39 +8,43 @@
   </head>
 
   <body>
-      <div class="container-fluid">
-          <div class="row justify-content-center">
-              <div class="col-sm-6">
-                  <div class="row justify-content-md-center">
-                    <span><img src="/img/hey_logo.png" id="logo" class="img-fluid"/></span>
-                    <span><p class="white_text_arial_font">Group Messenger!</p></span>
-                  </div>
-                  <div class="row justify-content-md-center">
-                  <span><small id="subtextMessage" class="form-text text-muted">Say Hey! to new beginnings.</small></span>
-                </div>
-              </div>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-md-3"></div>
+          <div class="col-sm-6">
+            <div class="row justify-content-md-center">
+              <span><img src="/img/hey_logo.png" id="logo" class="img-fluid"/></span>
+              <span><p class="white_text_arial_font">Group Messenger!</p></span>
+            </div>
+            <div class="row justify-content-md-center">
+              <span><small id="subtextMessage" class="form-text text-muted">Say Hey! to new beginnings.</small></span>
+             </div>
           </div>
-      </div>    
-
-    <BR><BR>
-
-  <div id="rounded_div">
-
-    <form class="" id="chatform" onsubmit="clearTextInput();return false">
-      <div class="form-group"> 
-        <label class="white_text_arial_font_headers" for="conversationHistory">Conversation History</label>
-          <ul class="list-group" id="conversationList">
-          </ul>
-
+        <div class="col-md-3"></div>
       </div>
-      <div class="form-group">
-          <label class="white_text_arial_font_headers" for="labelMessage">Type your message</label>
-          <input type="text" class="form-control" id="inputMessageTextBox" aria-describedby="inputMessage">
-      </div>
-      <button type="submit" class="btn btn-primary" onclick="sendMessage()">Send Message</button>
-    </form>
 
-  </div>
+      <div class="conversation_main_div">
+        <div class="row justify-content-center">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <div id="rounded_div">
+              <form class="" id="chatform" onsubmit="clearTextInput();return false">
+                <div class="form-group"> 
+                  <label class="white_text_arial_font_headers" for="conversationHistory">Conversation History</label>
+                  <ul class="list-group" id="conversationList"></ul>
+                </div>
+                <div class="form-group">
+                  <label class="white_text_arial_font_headers" for="labelMessage">Type your message</label>
+                  <input type="text" class="form-control" id="inputMessageTextBox" aria-describedby="inputMessage">
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="sendMessage()">Send Message</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
